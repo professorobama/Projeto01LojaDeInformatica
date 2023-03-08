@@ -1,0 +1,201 @@
+/*RESET CSS*/
+
+*{
+    margin:0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+img{
+    max-width: 100%;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-size: 1.5em;
+    color:#333
+}
+p{
+    font-size: 1em;
+    color: #777;
+}
+
+/*CABECALHO */
+
+.cabecalho{
+width: 100%;
+float:left;
+padding: 50px 8%;
+background-color: #13c7ae;
+/* background: linear-gradient(red,blue); */
+}
+
+.logo{
+    width: 221px;
+    height: 48px;
+    float: left;
+    font-size: 0;
+    background: url(../img/logo.png);
+}
+.cabecalho form{
+    width: 30%;
+    float: right;
+}
+.cabecalho form input[type="search"]{
+    width: 85%;
+    float: left;
+    padding: 15px 10px 15px 10px;
+    border-radius: 10px 0 0 10px;
+}
+
+.cabecalho button{
+    width: 15%;
+    float: right;
+    padding: 15px 10px;
+    background-color: #0cae98;
+    color: #fff;
+    border-radius: 0 10px 10px 0;
+}
+
+/* MENU */
+.menu{
+    width: 100%;
+    float: left;
+    background-color: #111;
+    padding: 18px 8%;
+}
+.menu li{
+        float: left;
+}
+.menu li a{
+    color:#9d9d9d;
+    margin-right: 25px;
+    font-size: 20px;
+}
+.menu li a:hover{
+    color: #fff;
+}
+
+/* SOCIAL-ICONS */
+.social-icons{
+    float:right;
+}
+.social-icons a{
+    color: #fff;
+    float:left;
+    margin-left: 13px;
+}
+.btn-facebook:hover{
+    color: #3b5998;
+}
+.btn-twitter:hover{
+    color: #00acee;
+}
+.btn-google:hover{
+    color: #db4437;
+    background: linear-gradient(#db4437,#0f9d58);
+}
+
+/* PRINCIPAL */
+.principal{
+    width: 100%;
+    float:left;
+    padding: 20px 8%;
+}
+.sobre{
+    width: 70%;
+    float: left;
+    padding: 0 20px 20px 0;
+}
+.sobre h2{
+    margin-bottom: 15px;
+}
+.sobre img{
+    width: 50%;
+    float:left;
+    border-radius: 8px;
+    margin: 0px 15px 15px 0px;
+}
+.sobre p{
+    text-align: justify;
+    ;
+}
+/*SIDEBAR */
+.onde-estamos{
+   width: 30%;
+   float: right;
+   padding: 10px 20px;
+   background-color: #f5f5f5;
+   border-radius: 10px; 
+}
+.onde-estamos h2{
+    margin-bottom: 6px;
+}
+.onde-estamos iframe{
+    width: 100%;
+    height: 250px;
+    margin: 20px 0px;
+}
+.onde-estamos li{
+    color:#777;
+    margin-bottom: 10px;
+}
+.onde-estamos i{
+    margin-right:5px;
+}
+/* NEWSLETTER */
+.newsletter{
+    width: 100%;
+    float:left;
+    background-color: #111;
+    padding: 50px 8%;
+}
+.newsletter h3{
+    font-size: 1.8em;
+    color:#fff;
+}
+.newsletter p{
+    font-size: 1.2em;
+    color:#fff;
+}
+.newsletter form{
+    width: 100%;
+    float:left;
+    margin-top: 12px;
+}
+.newsletter form input{
+    width: 40%;
+    margin-right: .5%;
+    padding: 15px 10px;
+    border: 1px solid #fff;
+    border-radius: 7px;
+    color:#fff;
+    background-color: initial;
+    float:left;
+}
+.newsletter button{
+    width: 19%;
+    background-color: #fff;
+    padding: 15px 10px;
+    border-radius: 7px;
+    float: right;
+    cursor: pointer;
+}
+/* RODAPÉ */
+.rodape{
+    width: 100%;
+    float: left;
+    background-color: #13c7ae;
+    padding: 20px 8%;
+}
+.rodape p{
+    color:#fff;
+}
